@@ -1,4 +1,9 @@
-<?php 
-echo "Front Controller <br>";
+<?php
+use App\Core\Routing\Router;
+use App\Core\Routing\Route;
 
-echo $_SERVER['REQUEST_URI'];
+include_once "bootstrap/init.php";
+
+$router = new Router();
+$router->run();
+

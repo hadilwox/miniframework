@@ -1,0 +1,8 @@
+* {
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  overflow-y: scroll;
+  position: static;
+}
