@@ -7,7 +7,7 @@ interface CrudInterface
 {
 
     // Create (insert)
-    public function create(array $data): int;
+    public function create(array $data);
 
 
     // Read (select) single | multiple
